@@ -1,0 +1,42 @@
+# robots.txt
+# 智营 AI · 站点抓取规则
+# 目标：允许常规搜索引擎抓取，并显式放行主流 AI / 生成式引擎抓取方（GEO 前提）
+# 注意：换自定义域名后，需同步替换文末 Sitemap 地址。
+
+# 常规搜索引擎与所有其他抓取方
+User-agent: *
+Allow: /
+Disallow: /README.md
+
+# --- AI / 生成式引擎抓取方（显式放行）---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://fengchao8181-ctrl.github.io/ai-marketing-agency/sitemap.xml
