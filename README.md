@@ -34,7 +34,7 @@
 ## 二、目录结构
 
 ```
-agency-site/
+ai-marketing-agency/
 ├── index.html        首页：定位 / 价值主张 / 8 工位工作台 / 对比表 / 服务入口
 ├── pricing.html      服务与报价：3 档套餐 + GEO 增值（Service + Offer JSON-LD）
 ├── method.html       交付方法论：内容生产 SOP / GEO 做法 / 分发策略 / 数据周报（Article + BreadcrumbList JSON-LD）
@@ -57,7 +57,7 @@ agency-site/
 站点全部使用**相对路径**，直接双击 `index.html` 也能看，推荐起本地服务：
 
 ```bash
-cd agency-site
+cd ai-marketing-agency
 python -m http.server 8080     # 然后访问 http://localhost:8080
 # 或：npx serve .
 ```
